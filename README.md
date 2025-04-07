@@ -1,41 +1,16 @@
-# Custom Project Template
+# AI/ML Engineering MonoRepo
 
-This template builds a mono-repo with its own virtual environment. It configures tools to ensure the code runs, follows PEP8 guidelines, and runs on Linux, Windows, and Mac - as well as Python versions 3.10, 3.11, & 3.12. 
+All Projects within the AI/ML space that utilize transformers are located here.
 
 ## Installation
 
- On Github, manually create a new repository 'new-repo-name'
-
 ```bash
 # Clone the repository
-git clone https://github.com/joel-day/project-template-custom-cookiecutter.git
+git clone https://github.com/joel-day/chalkland.git
 
-# Move into the local repository
-cd project-template-custom-cookiecutter
+# Move to repository directory
+cd chalkland
 
-# Remove git's connection and all commit history ect from the original repository
-Remove-Item -Recurse -Force .git
-
-# Manually create new repository in Github named "new-project-repo" with no README, and rename the locally cloned template to match the name
-cd ..
-mv project-template-custom-cookiecutter new-repo-name
-cd new-repo-name
-
-# Push template into the new repo
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/your-username/my-new-template.git
-git push -u origin main
-
-# (OPTIONAL) Ensure you are connected to the new repository
-git remote -v
-```
-
-## Setup Virtual Environment and Dependencies
-
-```bash
 # Create the virtual environment
 uv venv .venv
 
@@ -61,6 +36,11 @@ uv sync --all-packages
 pytest
 ```
 - **Flake8**: Used for checking code compliance with PEP8 standards. It helps maintain a clean and consistent code style across the project by enforcing formatting and style guidelines.
+```bash
+flake8 .
+```
+
+## Projects will be added soon
 ```bash
 flake8 .
 ```
