@@ -6,10 +6,10 @@ All Projects within the AI/ML space that utilize transformers are located here.
 
 ```bash
 # Clone the repository
-git clone https://github.com/joel-day/chalkland.git
+git clone https://github.com/joel-day/AI-ML-Engineering-MonoRepo.git
 
 # Move to repository directory
-cd chalkland
+cd AI-ML-Engineering-MonoRepo
 
 # Create the virtual environment
 uv venv .venv
