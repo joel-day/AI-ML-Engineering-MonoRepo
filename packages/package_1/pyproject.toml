@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
   "transformers>=4.48.1",
+  "torch-directml>=0.2.1"
 ]
 
 # Specify the package builder
