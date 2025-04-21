@@ -6,7 +6,17 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
   "transformers>=4.48.1",
-  "torch-directml>=0.2.1"
+  "torch-directml>=0.2.1",
+  "optimum>=1.17.0",               # Optimum library for ONNX support
+  "onnx>=1.8.0",                  # ONNX library
+  "onnxruntime>=1.8.0",           # Ensure ONNX Runtime is at least version 1.8.0
+  "onnxruntime-directml>=1.8.0",  # ONNX runtime with DirectML support
+  "onnxruntime-extensions>=0.7.0",
+  #"onnxruntime-quantization
+  "pathlib>=1.0.0",               # Pathlib for handling paths
+  "accelerate>=0.21.0",
+  "librosa==0.9.2",
+  "datasets==3.5.0"
 ]
 
 # Specify the package builder

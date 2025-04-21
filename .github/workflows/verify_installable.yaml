@@ -17,6 +17,7 @@ on:
 jobs:
   tests_linux:
   # GitHub-hosted virtual machine for linux
+    # needs: test  # This ensures tests must pass before publishing
     runs-on: ubuntu-latest
     strategy:
       matrix:

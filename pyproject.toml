@@ -21,7 +21,8 @@ dependencies = [
     "seaborn==0.11.2",          # Statistical data visualization library
     "pytest==7.2.2",            # Testing framework for Python
     "flake8==7.0.0",             # Linter for checking Python code style and quality
-    "flake8-pyproject==1.2.3"   # enables config using pyproject .toml
+    "flake8-pyproject==1.2.3",   # enables config using pyproject .toml
+    "jupyter>=1.0.0"
 ]
 
 
